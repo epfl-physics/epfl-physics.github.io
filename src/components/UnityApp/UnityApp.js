@@ -87,7 +87,7 @@ function UnityApp(props) {
   // }, [setIsFullscreen, isFullscreen, unityIsFullscreen, sendMessage, isSafari]);
 
   return (
-    <div id={`unity-app-${props.index}`} className='unity-app'>
+    <div id={`${props.id}`} className='unity-app'>
       <div className='unity-app-title'>
         <h3>{props.name}</h3>
         {props.github ? (

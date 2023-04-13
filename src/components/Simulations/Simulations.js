@@ -4,6 +4,8 @@ import thumbnail1 from '../../images/coupled_oscillations_thumbnail.png';
 import thumbnail2 from '../../images/rotating_cannon_thumbnail.png';
 
 const sim1 = {
+  index: 1,
+  id: 'coupled-oscillations',
   image: thumbnail1,
   name: 'Coupled Oscillations',
   description:
@@ -11,6 +13,8 @@ const sim1 = {
 };
 
 const sim2 = {
+  index: 2,
+  id: 'rotating-cannon',
   image: thumbnail2,
   name: 'Rotating Cannon',
   description:

@@ -7,6 +7,7 @@ import image2 from '../images/img-load-rotating-cannon.png';
 
 const app1data = {
   index: 1,
+  id: 'coupled-oscillations',
   name: 'Coupled Oscillations',
   loaderUrl: 'CoupledOscillations/Build/CoupledOscillations.loader.js',
   dataUrl: 'CoupledOscillations/Build/CoupledOscillations.data',
@@ -19,6 +20,7 @@ const app1data = {
 
 const app2data = {
   index: 2,
+  id: 'rotating-cannon',
   name: 'Rotating Cannon',
   loaderUrl: 'RotatingCannon/Build/RotatingCannon.loader.js',
   dataUrl: 'RotatingCannon/Build/RotatingCannon.data',
@@ -31,9 +33,9 @@ const app2data = {
 
 export default function Apps() {
   return (
-    <div className='main-content'>
+    <div className='apps-main-content'>
       <p>
-        <Link className='main-content-link' to='/'>
+        <Link className='apps-main-content-link' to='/'>
           <ArrowBack fontSize='small' /> Back
         </Link>
       </p>

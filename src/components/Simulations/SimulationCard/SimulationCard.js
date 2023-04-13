@@ -1,12 +1,14 @@
 import './SimulationCard.css';
-import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 export default function SimulationCard(props) {
+  const hash = `/apps#${props.index === 1 ? '' : props.id}`;
+
   return (
-    <Link className='simulation-card-container' to='/apps'>
+    <HashLink className='simulation-card-container' to={hash}>
       <img src={props.image} alt='sim' />
       <h3>{props.name}</h3>
       <p>{props.description}</p>
-    </Link>
+    </HashLink>
   );
 }

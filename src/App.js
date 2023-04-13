@@ -3,12 +3,12 @@ import Alert from './components/Alert/Alert';
 import Home from './pages/Home';
 import Apps from './pages/Apps';
 import PageNotFound from './pages/PageNotFound';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div className='app-container'>
-      <BrowserRouter basename='/'>
+      <HashRouter basename='/'>
         <Alert />
         <Routes>
           <Route index element={<Home />} />
@@ -16,7 +16,7 @@ function App() {
           <Route path='/apps' element={<Apps />} />
           <Route path='*' element={<PageNotFound />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }

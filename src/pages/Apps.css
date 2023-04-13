@@ -1,4 +1,4 @@
-.main-content {
+.apps-main-content {
     display: flex;
     flex-direction: column;
     max-width: 1200px;
@@ -6,7 +6,7 @@
     padding: 20px 40px;
   }
   
-  .main-content-link {
+  .apps-main-content-link {
     display: flex;
     align-items: center;
     justify-content: space-between;
