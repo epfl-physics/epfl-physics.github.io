@@ -21,11 +21,21 @@ const sim2 = {
     '[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam]',
 };
 
+const sim3 = {
+  index: 3,
+  id: 'flying-drone',
+  image: thumbnail2,
+  name: 'Flying Drone',
+  description:
+    '[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam]',
+};
+
 export default function Simulations() {
   return (
     <div className='simulations-container'>
       <SimulationCard {...sim1} />
       <SimulationCard {...sim2} />
+      <SimulationCard {...sim3} />
     </div>
   );
 }
