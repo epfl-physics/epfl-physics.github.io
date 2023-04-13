@@ -1,0 +1,12 @@
+.title {
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 0px;
+  /* background-color: orangered; */
+}
+
+.title h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}

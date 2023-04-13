@@ -1,0 +1,32 @@
+.hero-section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 20px auto 50px;
+    padding: 20px 40px;
+}
+
+.hero-text-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 450px;
+}
+
+.hero-text-container h1 {
+    margin-top: 100px;
+}
+
+.hero-image {
+    max-width: 720px;
+}
+
+.hero-logo {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    width: 100px;
+}

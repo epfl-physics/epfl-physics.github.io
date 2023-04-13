@@ -1,0 +1,14 @@
+.section-header {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: 0px 40px;
+    max-width: 1200px;
+}
+
+.section-header hr {
+    margin: auto;
+    margin-left: 25px;
+    border: 2px solid #f1f2f7;
+    width: 100%;
+}

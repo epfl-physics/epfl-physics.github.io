@@ -1,0 +1,30 @@
+.simulation-card-container {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+    margin: 20px 0px;
+    width: 580px;
+    border-radius: 16px;
+    background-color: #f1f2f7;
+}
+
+.simulation-card-container:hover {
+    cursor: pointer;
+    opacity: 60%;
+}
+
+.simulation-card-container img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 30px 0px;
+}
+
+.simulation-card-container h3 {
+    margin-left: 40px;
+}
+
+.simulation-card-container p {
+    margin: 0px 40px 40px;
+}

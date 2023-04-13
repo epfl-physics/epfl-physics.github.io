@@ -1,0 +1,9 @@
+.about-container {
+  max-width: 1200px;
+  margin: 0px auto 50px;
+  padding: 20px 40px;
+}
+
+.about-container p {
+    padding: 5px 0px;
+}

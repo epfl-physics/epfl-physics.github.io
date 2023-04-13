@@ -1,0 +1,25 @@
+.nav {
+  display: flex;
+  margin: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* justify-content: space-evenly; */
+  align-items: center;
+  font-weight: 300;
+  /* background-color: chartreuse; */
+}
+
+.nav a {
+  text-decoration: none;
+  padding: 0px 18px;
+  margin: 5px 10px;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: black;
+  cursor: pointer;
+  /* background-color: red; */
+}
+
+.nav a:hover {
+  color: gray;
+}
