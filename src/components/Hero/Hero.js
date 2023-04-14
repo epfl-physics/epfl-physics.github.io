@@ -1,8 +1,16 @@
 import './Hero.css';
-import epflLogo from '../../images/EPFL_logo.png';
-import heroImage from '../../images/header_image.png';
+import { useRef } from 'react';
+import epflLogo from 'images/EPFL_logo.png';
+// import heroImage from 'images/header_image.png';
+import heroVideo from 'videos/rotating_cannon_en.mp4';
 
 export default function Hero() {
+  const ref = useRef(null);
+
+  const loop = () => {
+    ref.current.play();
+  };
+
   return (
     <div className='hero-section'>
       <div className='hero-text-container'>
@@ -14,7 +22,18 @@ export default function Hero() {
           first-year mechanics courses.
         </p>
       </div>
-      <img src={heroImage} alt='hero_image' className='hero-image' />
+      {/* <img src={heroImage} alt='hero_image' className='hero-image' /> */}
+      <div className='hero-video'>
+        <video
+          id='video'
+          ref={ref}
+          style={{ maxWidth: '720px', height: 'auto' }}
+          autoPlay
+          muted={true}
+          src={heroVideo}
+          onEnded={loop}
+        ></video>
+      </div>
     </div>
   );
 }
