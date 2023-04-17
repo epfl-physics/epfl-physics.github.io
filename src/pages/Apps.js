@@ -1,10 +1,10 @@
-import UnityApp from '../components/UnityApp/UnityApp';
+import UnityApp from 'components/UnityApp/UnityApp';
 import { Link } from 'react-router-dom';
 import ArrowBack from '@mui/icons-material/ArrowBack';
 import './Apps.css';
-import image1 from '../images/img-load-coupled-oscillations.png';
-import image2 from '../images/img-load-rotating-cannon.png';
-import image3 from '../images/img-load-flying-drone.png';
+import image1 from 'images/img-load-coupled-oscillations.png';
+import image2 from 'images/img-load-rotating-cannon.png';
+import image3 from 'images/img-load-flying-drone.png';
 
 const app1data = {
   index: 1,

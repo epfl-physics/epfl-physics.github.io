@@ -5,10 +5,21 @@ export default function SimulationCard(props) {
   const hash = `/apps#${props.index === 1 ? '' : props.id}`;
 
   return (
-    <HashLink className='simulation-card-container' to={hash}>
-      <img src={props.image} alt='sim' />
-      <h3>{props.name}</h3>
-      <p>{props.description}</p>
-    </HashLink>
+    <>
+      {props.index > 0 ? (
+        <HashLink className='simulation-card-hashlink' to={hash}>
+          <div className='simulation-card-container'>
+            <img src={props.image} alt='sim' />
+            <h4>{props.name}</h4>
+            <p>{props.description}</p>
+          </div>
+        </HashLink>
+      ) : (
+        <div className='simulation-card-container'>
+          <h4>{props.name}</h4>
+          <img src={props.image} alt='icon' className='check-back-icon' />
+        </div>
+      )}
+    </>
   );
 }

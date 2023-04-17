@@ -1,5 +1,5 @@
 import './Header.css';
-import Nav from '../Nav/Nav';
+import Nav from 'components/Nav/Nav';
 import logo from './Logo_EPFL.png';
 
 export default function Header() {

@@ -1,4 +1,4 @@
-import UnityApp from '../UnityApp/UnityApp';
+import UnityApp from 'components/UnityApp/UnityApp';
 import './Main.css';
 import image1 from './img-load-coupled-oscillations.png';
 import image2 from './img-load-rotating-cannon.png';

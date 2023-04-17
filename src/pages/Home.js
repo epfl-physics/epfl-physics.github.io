@@ -1,8 +1,8 @@
-import Hero from '../components/Hero/Hero';
-import SectionHeader from '../components/SectionHeader/SectionHeader';
-import Overview from '../components/Overview/Overview';
-import Simulations from '../components/Simulations/Simulations';
-import About from '../components/About/About';
+import Hero from 'components/Hero/Hero';
+import SectionHeader from 'components/SectionHeader/SectionHeader';
+import Overview from 'components/Overview/Overview';
+import Simulations from 'components/Simulations/Simulations';
+import About from 'components/About/About';
 import { Fragment } from 'react';
 
 export default function Home() {
