@@ -11,6 +11,7 @@ export default function SimulationCard(props) {
           <div className='simulation-card-container'>
             <img src={props.image} alt='sim' />
             <h4>{props.name}</h4>
+            <p className='keywords'>{props.keywords}</p>
             <p>{props.description}</p>
           </div>
         </HashLink>

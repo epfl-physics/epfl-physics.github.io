@@ -10,8 +10,9 @@ const sim1 = {
   id: 'coupled-oscillations',
   image: thumbnail1,
   name: 'Coupled Oscillations',
+  keywords: "Hooke's law, normal modes",
   description:
-    '[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam]',
+    'Explore how the complex behaviour of two spring-coupled oscillators can be understood in terms of simpler component patterns of motion.',
 };
 
 const sim2 = {
@@ -19,8 +20,9 @@ const sim2 = {
   id: 'rotating-cannon',
   image: thumbnail2,
   name: 'Rotating Cannon',
+  keywords: 'Centrifugal force, Coriolis force',
   description:
-    '[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam]',
+    'See how so-called fictitious forces arise in rotating reference frames and in which directions they act.',
 };
 
 const sim3 = {
@@ -28,8 +30,9 @@ const sim3 = {
   id: 'flying-drone',
   image: thumbnail3,
   name: 'Flying Drone',
+  keywords: 'Accelerated reference frame kinematics',
   description:
-    '[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam]',
+    'Understand how positions, velocities, and accelerations transform between inertial and non-inertial (accelerated) reference frames.',
 };
 
 // const checkBackSoon = {
