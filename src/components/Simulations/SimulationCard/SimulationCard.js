@@ -9,7 +9,7 @@ export default function SimulationCard(props) {
       {props.index > 0 ? (
         <HashLink className='simulation-card-hashlink' to={hash}>
           <div className='simulation-card-container'>
-            <img src={props.image} alt='sim' />
+            {props.image ? <img src={props.image} alt='sim' /> : <></>}
             <h4>{props.name}</h4>
             <p className='keywords'>{props.keywords}</p>
             <p>{props.description}</p>

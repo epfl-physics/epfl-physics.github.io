@@ -3,7 +3,7 @@ import SimulationCard from './SimulationCard/SimulationCard';
 import thumbnail1 from 'images/thumbnail_coupled_oscillations.png';
 import thumbnail2 from 'images/thumbnail_rotating_cannon.png';
 import thumbnail3 from 'images/thumbnail_flying_drone.png';
-// import checkBackIcon from 'images/checkbacksoon_icon.png';
+import checkBackIcon from 'images/checkbacksoon_icon.png';
 
 const sim1 = {
   index: 1,
@@ -35,12 +35,30 @@ const sim3 = {
     'Understand how positions, velocities, and accelerations transform between inertial and non-inertial (accelerated) reference frames.',
 };
 
-// const checkBackSoon = {
-//   index: 0,
-//   id: 'coming-soon',
-//   image: checkBackIcon,
-//   name: 'More simulations are in developement. Please check back soon.',
-// };
+const sim4 = {
+  index: 1,
+  // id: 'gyroscope',
+  // image: thumbnail4,
+  name: 'Gyroscope',
+  keywords: 'Angular momentum, precession',
+  description: 'Coming soon.',
+};
+
+const sim5 = {
+  index: 1,
+  // id: 'water-jet',
+  // image: thumbnail5,
+  name: 'Spinning Water Jet',
+  keywords: 'Logarithmic spiral',
+  description: 'Coming soon.',
+};
+
+const checkBackSoon = {
+  index: 0,
+  id: 'coming-soon',
+  image: checkBackIcon,
+  name: 'More simulations are in developement. Please check back soon.',
+};
 
 export default function Simulations() {
   return (
@@ -48,7 +66,9 @@ export default function Simulations() {
       <SimulationCard {...sim1} />
       <SimulationCard {...sim2} />
       <SimulationCard {...sim3} />
-      {/* <SimulationCard {...checkBackSoon} /> */}
+      <SimulationCard {...sim4} />
+      <SimulationCard {...sim5} />
+      <SimulationCard {...checkBackSoon} />
     </div>
   );
 }
