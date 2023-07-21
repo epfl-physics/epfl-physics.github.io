@@ -1,18 +1,18 @@
 import './Simulations.css';
 import SimulationCard from './SimulationCard/SimulationCard';
-import thumbnail1 from 'images/thumbnail_coupled_oscillations.png';
+import thumbnail3 from 'images/thumbnail_coupled_oscillations.png';
 import thumbnail2 from 'images/thumbnail_rotating_cannon.png';
-import thumbnail3 from 'images/thumbnail_flying_drone.png';
+import thumbnail1 from 'images/thumbnail_flying_drone.png';
 import checkBackIcon from 'images/checkbacksoon_icon.png';
 
 const sim1 = {
   index: 1,
-  id: 'coupled-oscillations',
+  id: 'flying-drone',
   image: thumbnail1,
-  name: 'Coupled Oscillations',
-  keywords: "Hooke's law, normal modes",
+  name: 'Flying Drone',
+  keywords: 'Accelerated reference frame kinematics',
   description:
-    'Explore how the complex behaviour of two spring-coupled oscillators can be understood in terms of simpler component patterns of motion.',
+    'Understand how positions, velocities, and accelerations transform between inertial and non-inertial (accelerated) reference frames.',
 };
 
 const sim2 = {
@@ -27,12 +27,12 @@ const sim2 = {
 
 const sim3 = {
   index: 3,
-  id: 'flying-drone',
+  id: 'coupled-oscillations',
   image: thumbnail3,
-  name: 'Flying Drone',
-  keywords: 'Accelerated reference frame kinematics',
+  name: 'Coupled Oscillations',
+  keywords: "Hooke's law, normal modes",
   description:
-    'Understand how positions, velocities, and accelerations transform between inertial and non-inertial (accelerated) reference frames.',
+    'Explore how the complex behaviour of two spring-coupled oscillators can be understood in terms of simpler component patterns of motion.',
 };
 
 const sim4 = {
