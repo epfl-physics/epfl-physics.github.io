@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ab82e185.css",
-    "main.js": "/static/js/main.37f90bf7.js",
+    "main.css": "/static/css/main.7c68235e.css",
+    "main.js": "/static/js/main.3f7288ab.js",
     "static/js/787.c5fa1c30.chunk.js": "/static/js/787.c5fa1c30.chunk.js",
     "static/media/rotating_cannon_en.mp4": "/static/media/rotating_cannon_en.5a01a20d2afa40256ec9.mp4",
     "static/media/img-load-rotating-cannon.png": "/static/media/img-load-rotating-cannon.1d6859b9b4f4c5245d04.png",
@@ -11,12 +11,12 @@
     "static/media/thumbnail_rotating_cannon.png": "/static/media/thumbnail_rotating_cannon.ebfce06449682279219a.png",
     "static/media/thumbnail_coupled_oscillations.png": "/static/media/thumbnail_coupled_oscillations.4b824ae34c85c7a22d64.png",
     "index.html": "/index.html",
-    "main.ab82e185.css.map": "/static/css/main.ab82e185.css.map",
-    "main.37f90bf7.js.map": "/static/js/main.37f90bf7.js.map",
+    "main.7c68235e.css.map": "/static/css/main.7c68235e.css.map",
+    "main.3f7288ab.js.map": "/static/js/main.3f7288ab.js.map",
     "787.c5fa1c30.chunk.js.map": "/static/js/787.c5fa1c30.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab82e185.css",
-    "static/js/main.37f90bf7.js"
+    "static/css/main.7c68235e.css",
+    "static/js/main.3f7288ab.js"
   ]
 }
