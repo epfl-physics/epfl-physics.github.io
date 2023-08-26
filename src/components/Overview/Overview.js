@@ -42,7 +42,7 @@ const sandbox = {
 
 export default function Overview() {
   return (
-    <div className='overview-container'>
+    <div className='container overview-section'>
       <p>
         Each app is presented with four modules: introduction, theory,
         activities, and sandbox. Many different use cases are possible,

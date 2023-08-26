@@ -2,26 +2,25 @@ import './About.css';
 
 export default function About() {
   return (
-    <div className='about-container'>
+    <div id='about' className='container about-content'>
       <p>
         These apps are being developed by
         <ul>
           <li>
-            <b>Austin Peel</b>&emsp;&emsp;&emsp;&ensp;
+            <b>Dr Austin Peel</b>&emsp;&emsp;&emsp;&ensp;
             <i>development, concept, design</i>
           </li>
           <li>
-            <b>Sylvain Bréchet</b>&emsp; <i>concept, design</i>
+            <b>Dr Sylvain Bréchet</b>&emsp; <i>concept, design</i>
           </li>
         </ul>
         to accompany the introductory physics (mechanics) courses at EPFL.
       </p>
       <p>
-        Special thanks to <span className='emph'>Frédéric Blanc</span> for his
-        ongoing support of the project and his help defining the initial list of
-        apps. We thank as well <span className='emph'>Quentin Gallien</span> and{' '}
-        <span className='emph'>Mathieu Reibel</span> for their help in designing
-        and implementing certain app activities.
+        Special thanks to <span>Dr Frédéric Blanc</span> for his ongoing support
+        of the project and his help defining the initial list of apps. We thank
+        as well <span>Quentin Gallien</span> and <span>Mathieu Reibel</span> for
+        their help in designing and implementing certain app activities.
       </p>
       <p>
         All of the apps created for this project are Open Educational Resources

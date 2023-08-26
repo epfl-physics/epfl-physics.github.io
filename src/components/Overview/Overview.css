@@ -1,18 +1,9 @@
-.overview-container {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    padding: 0px 40px;
-    max-width: 1200px;
-}
-
-.overview-container p {
-    margin-top: 20px;
-    margin-bottom: 40px;
+.overview-section p {
+  margin: 0 auto 2em;
 }
 
 .overview-module-cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
