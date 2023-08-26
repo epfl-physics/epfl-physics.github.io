@@ -1,14 +1,7 @@
-.about-container {
-  max-width: 1200px;
-  margin: 0px auto 50px;
-  padding: 20px 40px;
+.about-content {
+  margin-bottom: 5em;
 }
 
-.about-container p {
-  padding: 5px 0px;
-}
-
-.about-container .emph {
-  /* font-style: italic; */
-  font-weight: 500;
+.about-content span {
+  font-style: italic;
 }

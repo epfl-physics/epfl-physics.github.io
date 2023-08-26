@@ -1,0 +1,27 @@
+/* .sims-page-content {
+  border: 1px solid coral;
+} */
+
+.sims-page-back-button {
+  display: flex;
+  margin-bottom: 1em;
+}
+
+.sims-page-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  text-decoration: none;
+  color: black;
+}
+
+.sims-page-link p {
+  margin-left: 0.25em;
+}
+
+@media (max-width: 960px) {
+  .sims-page-back-button {
+    margin: 1em 0 0.5em;
+  }
+}

@@ -1,19 +1,19 @@
 import './Header.css';
-import Nav from 'components/Nav/Nav';
-import logo from './Logo_EPFL.png';
+import logo from 'images/logo_EPFL.png';
+import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 export default function Header() {
   return (
-    <div className='header'>
-      <img id='header-logo' src={logo} alt='logo'></img>
-      <Nav />
-      {/* <p id='language-toggle'>EN / FR</p> */}
-      <select name='language-select' id='language-select'>
-        <option class='language-option' value='option 1'>
-          EN
-        </option>{' '}
-        {/* <option value='option 2'>FR</option> */}
-      </select>
-    </div>
+    <header className='container header'>
+      <img src={logo} alt='Logo' className='header-logo' />
+      <nav>
+        <Link to='/'>Home</Link>
+        <HashLink smooth to='/#about'>
+          About
+        </HashLink>
+        <Link to='/simulations'>Simulations</Link>
+      </nav>
+    </header>
   );
 }

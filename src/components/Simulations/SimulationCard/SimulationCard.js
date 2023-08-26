@@ -1,26 +1,30 @@
+import { Fragment } from 'react';
 import './SimulationCard.css';
 import { HashLink } from 'react-router-hash-link';
 
 export default function SimulationCard(props) {
-  const hash = `/apps#${props.index === 1 ? '' : props.id}`;
+  const hash = `/simulations#${props.index === 1 ? '' : props.id}`;
 
   return (
-    <>
+    <Fragment>
       {props.index > 0 ? (
-        <HashLink className='simulation-card-hashlink' to={hash}>
-          <div className='simulation-card-container'>
-            <img src={props.image} alt='sim' />
-            <h4>{props.name}</h4>
-            <p className='keywords'>{props.keywords}</p>
+        <HashLink
+          className={`simulation-card ${props.image ? '' : 'no-link'}`}
+          to={hash}
+        >
+          {props.image ? <img src={props.image} alt='Sim' /> : <></>}
+          <div className='simulation-card-content'>
+            <h3>{props.name}</h3>
+            <p className='description italic'>{props.keywords}</p>
             <p>{props.description}</p>
           </div>
         </HashLink>
       ) : (
-        <div className='simulation-card-container'>
-          <h4>{props.name}</h4>
-          <img src={props.image} alt='icon' className='check-back-icon' />
+        <div className='simulation-card no-link'>
+          <h3 className='no-link-h3'>{props.name}</h3>
+          <img src={props.image} alt='Icon' className='check-back-icon' />
         </div>
       )}
-    </>
+    </Fragment>
   );
 }

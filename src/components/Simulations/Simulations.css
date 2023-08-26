@@ -1,9 +1,5 @@
-.simulations-container {
+.simulations-content {
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: space-between; */
-  justify-content: flex-start;
-  margin: auto;
-  padding: 0px 40px 50px;
-  max-width: 1200px;
+  justify-content: space-between;
 }
