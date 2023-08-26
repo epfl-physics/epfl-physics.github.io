@@ -21,7 +21,7 @@ export default function SimulationCard(props) {
         </HashLink>
       ) : (
         <div className='simulation-card no-link'>
-          <h3>{props.name}</h3>
+          <h3 className='no-link-h3'>{props.name}</h3>
           <img src={props.image} alt='Icon' className='check-back-icon' />
         </div>
       )}

@@ -1,6 +1,6 @@
-/* .about-content {
-  border: 1px solid coral;
-} */
+.about-content {
+  margin-bottom: 5em;
+}
 
 .about-content span {
   font-style: italic;

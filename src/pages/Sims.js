@@ -1,7 +1,7 @@
 import UnityApp from 'components/UnityApp/UnityApp';
 import { Link } from 'react-router-dom';
 import ArrowBack from '@mui/icons-material/ArrowBack';
-import './Apps.css';
+import './Sims.css';
 import image1 from 'images/img-load-drone-kinematics.png';
 import image2 from 'images/img-load-rotating-cannon.png';
 import image3 from 'images/img-load-coupled-oscillations.png';
@@ -48,14 +48,15 @@ const app3data = {
   github: 'https://github.com/epfl-physics/coupled-oscillations.git',
 };
 
-export default function Apps() {
+export default function Simulations() {
   return (
-    <div className='apps-main-content'>
-      <p>
-        <Link className='apps-main-content-link' to='/'>
-          <ArrowBack fontSize='small' /> Back
+    <div className='container sims-page-content'>
+      <div className='sims-page-back-button'>
+        <Link className='sims-page-link' to='/'>
+          <ArrowBack fontSize='small' />
+          <p>Back</p>
         </Link>
-      </p>
+      </div>
       <UnityApp {...app1data} />
       <UnityApp {...app2data} />
       <UnityApp {...app3data} />

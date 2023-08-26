@@ -1,15 +1,14 @@
 .unity-app {
-  margin: 5rem auto;
-  text-align: justify;
-  letter-spacing: 0.5px;
-  line-height: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2em;
 }
 
 .loading-overlay {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: #dedede;
+  background-color: #f1f2f7;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,21 +16,14 @@
 
 .unity-player {
   position: relative;
-  width: 960px;
-  height: 720px;
-  margin-bottom: 50px;
-  /* background-color:cornflowerblue; */
+  aspect-ratio: 4 / 3;
+  box-sizing: border-box;
+  margin: 1em 2em;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-.unity-player img {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-
 .unity-player button {
-  position: absolute;
+  /* position: absolute; */
   width: 100%;
   height: 100%;
   cursor: pointer;
@@ -39,6 +31,7 @@
   font-size: 3rem;
   border: none;
   opacity: 95%;
+  background-color: #f1f2f7;
 }
 
 .unity-player button:hover {
@@ -46,6 +39,7 @@
 }
 
 .unity {
+  display: flex;
   width: 100%;
   height: 100%;
   cursor: pointer;
@@ -62,11 +56,12 @@
   padding-right: 15px;
 }
 
-/* .unity-app-description {
-  margin: auto;
-} */
+@media (max-width: 960px) {
+  .unity-app {
+    margin-bottom: 1em;
+  }
 
-/* .unity-app-description p {
-  margin: auto;
-  margin-top: 10px;
-} */
+  .unity-player {
+    margin: 1em 0;
+  }
+}
