@@ -34,12 +34,21 @@ h3 {
 p {
   font-size: 1.2rem;
   line-height: 1.7rem;
+  margin: 0;
+}
+
+a {
+  font-size: 1.2rem;
 }
 
 @media (max-width: 700px) {
   p {
     font-size: 1rem;
     line-height: 1.4rem;
+  }
+
+  a {
+    font-size: 1rem;
   }
 }
 

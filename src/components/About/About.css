@@ -1,7 +1,12 @@
-.about-content {
-  margin-bottom: 5em;
-}
-
 .about-content span {
   font-style: italic;
+}
+
+.about-content p {
+  margin: auto;
+}
+
+.about-content a {
+  text-decoration: none;
+  font-weight: 700;
 }

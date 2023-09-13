@@ -3,6 +3,7 @@ import SectionHeader from 'components/SectionHeader/SectionHeader';
 import Overview from 'components/Overview/Overview';
 import Simulations from 'components/Simulations/Simulations';
 import About from 'components/About/About';
+import License from 'components/License/License';
 import { Fragment } from 'react';
 
 export default function Home() {
@@ -15,6 +16,8 @@ export default function Home() {
       <Simulations />
       <SectionHeader title='About' />
       <About />
+      <SectionHeader title='License' />
+      <License />
     </Fragment>
   );
 }
