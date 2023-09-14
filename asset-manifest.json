@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3c8c46fa.css",
-    "main.js": "/static/js/main.ad9917b0.js",
+    "main.css": "/static/css/main.8f34e90b.css",
+    "main.js": "/static/js/main.08252897.js",
     "static/js/787.c5fa1c30.chunk.js": "/static/js/787.c5fa1c30.chunk.js",
     "static/media/rotating_cannon_en.mp4": "/static/media/rotating_cannon_en.5a01a20d2afa40256ec9.mp4",
     "static/media/img-load-drone-kinematics.png": "/static/media/img-load-drone-kinematics.f8b4ca33be57c6a5f88e.png",
@@ -11,12 +11,12 @@
     "static/media/thumbnail_coupled_oscillations.png": "/static/media/thumbnail_coupled_oscillations.905ee8ec88f3c33360e4.png",
     "static/media/thumbnail_rotating_cannon.png": "/static/media/thumbnail_rotating_cannon.ebfce06449682279219a.png",
     "index.html": "/index.html",
-    "main.3c8c46fa.css.map": "/static/css/main.3c8c46fa.css.map",
-    "main.ad9917b0.js.map": "/static/js/main.ad9917b0.js.map",
+    "main.8f34e90b.css.map": "/static/css/main.8f34e90b.css.map",
+    "main.08252897.js.map": "/static/js/main.08252897.js.map",
     "787.c5fa1c30.chunk.js.map": "/static/js/787.c5fa1c30.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c8c46fa.css",
-    "static/js/main.ad9917b0.js"
+    "static/css/main.8f34e90b.css",
+    "static/js/main.08252897.js"
   ]
 }
