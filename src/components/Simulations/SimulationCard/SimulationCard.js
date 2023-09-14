@@ -15,9 +15,9 @@ export default function SimulationCard(props) {
           {props.image ? <img src={props.image} alt='Sim' /> : <></>}
           <div className='simulation-card-content'>
             <h3>{props.name}</h3>
-            <p className='description italic'>{props.keywords}</p>
+            <p className='secondary-color italic'>{props.keywords}</p>
             <br />
-            <p>{props.description}</p>
+            <p className='simulation-card-description'>{props.description}</p>
           </div>
         </HashLink>
       ) : (

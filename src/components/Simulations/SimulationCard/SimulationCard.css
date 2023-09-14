@@ -4,7 +4,7 @@
   justify-content: flex-start;
   color: black;
   width: 31%;
-  min-height: 510px;
+  min-height: 500px;
   text-decoration: none;
   border-radius: 16px;
   padding: 0.25em;
@@ -23,7 +23,7 @@
 }
 
 .simulation-card-content {
-  margin: 0 1em;
+  margin: 0 0.8em;
 }
 
 .simulation-card-content h3 {
@@ -33,6 +33,10 @@
 .simulation-card-content p {
   font-size: 1rem;
   line-height: 1.4rem;
+}
+
+.simulation-card-description {
+  margin: -0.5em 0 1em;
 }
 
 .no-link-h3 {
@@ -59,5 +63,6 @@
 @media (max-width: 700px) {
   .simulation-card {
     width: 100%;
+    min-height: 250px;
   }
 }
