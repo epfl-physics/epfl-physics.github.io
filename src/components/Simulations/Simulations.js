@@ -41,7 +41,7 @@ const sim4 = {
   // image: thumbnail4,
   name: 'Spinning Top',
   keywords: 'Euler angles, precession, nutation, intrinsic rotation',
-  description: 'Coming soon.',
+  description: 'Under development.',
 };
 
 const sim5 = {
@@ -50,7 +50,7 @@ const sim5 = {
   // image: thumbnail5,
   name: 'Water Jet',
   keywords: 'Logarithmic spiral, gravity, Coriolis force',
-  description: 'Coming soon.',
+  description: 'Under development.',
 };
 
 const checkBackSoon = {

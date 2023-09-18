@@ -1,7 +1,7 @@
 .unity-app {
   display: flex;
   flex-direction: column;
-  margin-bottom: 2em;
+  margin-bottom: 4em;
 }
 
 .loading-overlay {
@@ -58,7 +58,7 @@
 
 @media (max-width: 960px) {
   .unity-app {
-    margin-bottom: 1em;
+    margin-bottom: 3em;
   }
 
   .unity-player {
