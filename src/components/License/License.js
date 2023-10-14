@@ -22,7 +22,7 @@ export default function License() {
         </a>
       </div>
       <br />
-      <p>The code itself carries a Non-Commercial Software License.</p>
+      <p>The code carries an Academic Non-Commercial Software License.</p>
     </div>
   );
 }

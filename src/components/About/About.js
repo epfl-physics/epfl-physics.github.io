@@ -23,9 +23,9 @@ export default function About() {
       </p>
       <br />
       <p>
-        Special thanks to <span>Dr Frédéric Blanc</span> for his ongoing support
-        of the project and his help in defining the initial list of apps. We
-        thank as well <span>Quentin Gallien</span> and{' '}
+        Special thanks to <span>Prof Frédéric Blanc</span> for his ongoing
+        support of the project and his help in defining the initial list of
+        apps. We thank as well <span>Quentin Gallien</span> and{' '}
         <span>Mathieu Reibel</span> for their help in designing the second
         activity for the Drone Kinematics app.
       </p>

@@ -1,0 +1,14 @@
+.alert-badge {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: 400;
+  border-radius: 20px;
+  padding: 0rem 0.75rem;
+  margin: 0.7em 0.6em -1em;
+  background-color: red;
+}
+
+.alert-badge p {
+  font-size: 0.9rem;
+}

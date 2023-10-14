@@ -12,7 +12,9 @@ export default function Hero() {
   return (
     <div className='container hero-section'>
       <div className='hero-content'>
-        <h1 className='hero-tagline'>Interactive Physics Simulations</h1>
+        <h1 className='hero-tagline'>
+          Interactive Educational Physics Simulations
+        </h1>
         <p>
           This website contains interactive applications for learning,
           visualising, and experimenting with physics concepts in EPFL's

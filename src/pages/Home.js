@@ -12,7 +12,7 @@ export default function Home() {
       <Hero />
       <SectionHeader title='Overview' />
       <Overview />
-      <SectionHeader title='Our Simulations' />
+      <SectionHeader title='Simulations' />
       <Simulations />
       <SectionHeader title='About' />
       <About />
