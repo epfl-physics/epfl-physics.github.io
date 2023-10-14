@@ -22,12 +22,7 @@ export default function License() {
         </a>
       </div>
       <br />
-      <p>The code itself carries a Non-Commercial Software License.</p>
-      <br />
-      <p>
-        If you find them useful, please consider sharing these apps with your
-        fellow teachers and students.
-      </p>
+      <p>The code carries an Academic Non-Commercial Software License.</p>
     </div>
   );
 }

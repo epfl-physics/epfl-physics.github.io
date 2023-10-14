@@ -1,14 +1,14 @@
 .simulation-card {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  color: black;
-  width: 31%;
-  min-height: 510px;
+  align-items: flex-start;
+  flex-basis: calc((100% - 1.7 * 2em) / 3);
+  box-sizing: border-box;
+  min-height: 540px;
   text-decoration: none;
   border-radius: 16px;
   padding: 0.25em;
-  margin-bottom: 1.5em;
+  color: black;
   background-color: #f1f2f7;
 }
 
@@ -23,16 +23,24 @@
 }
 
 .simulation-card-content {
-  margin: 0 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 1.5em 0.8em 0;
 }
 
 .simulation-card-content h3 {
+  margin-top: 0;
   margin-bottom: 0.4em;
 }
 
 .simulation-card-content p {
   font-size: 1rem;
   line-height: 1.4rem;
+}
+
+.simulation-card-description {
+  margin: -0.5em 0 1em;
 }
 
 .no-link-h3 {
@@ -52,12 +60,13 @@
 
 @media (max-width: 960px) {
   .simulation-card {
-    width: 48%;
+    flex-basis: calc((100% - 2em) / 2);
   }
 }
 
 @media (max-width: 700px) {
   .simulation-card {
-    width: 100%;
+    flex-basis: 100%;
+    min-height: 250px;
   }
 }

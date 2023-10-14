@@ -1,5 +1,5 @@
 import './App.css';
-import Alert from './components/Alert/Alert';
+// import Alert from './components/Alert/Alert';
 import Header from 'components/Header/Header';
 import Home from './pages/Home';
 import Sims from './pages/Sims';
@@ -10,7 +10,7 @@ export default function App() {
   return (
     <div className='app-container'>
       <HashRouter basename='/'>
-        <Alert />
+        {/* <Alert /> */}
         <Header />
         <Routes>
           <Route index element={<Home />} />

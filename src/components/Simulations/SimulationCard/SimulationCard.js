@@ -1,6 +1,7 @@
-import { Fragment } from 'react';
 import './SimulationCard.css';
+import { Fragment } from 'react';
 import { HashLink } from 'react-router-hash-link';
+import AlertBadge from 'components/Alert/AlertBadge';
 
 export default function SimulationCard(props) {
   const hash = `/simulations#${props.index === 1 ? '' : props.id}`;
@@ -13,11 +14,16 @@ export default function SimulationCard(props) {
           to={hash}
         >
           {props.image ? <img src={props.image} alt='Sim' /> : <></>}
+          {props.underDevelopment ? (
+            <AlertBadge text='In development' />
+          ) : (
+            <></>
+          )}
           <div className='simulation-card-content'>
             <h3>{props.name}</h3>
-            <p className='description italic'>{props.keywords}</p>
+            <p className='secondary-color italic'>{props.keywords}</p>
             <br />
-            <p>{props.description}</p>
+            <p className='simulation-card-description'>{props.description}</p>
           </div>
         </HashLink>
       ) : (

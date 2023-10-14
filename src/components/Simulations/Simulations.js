@@ -1,9 +1,10 @@
 import './Simulations.css';
 import SimulationCard from './SimulationCard/SimulationCard';
+import thumbnail4 from 'images/thumbnail_spinning_top.png';
 import thumbnail3 from 'images/thumbnail_coupled_oscillations.png';
 import thumbnail2 from 'images/thumbnail_rotating_cannon.png';
 import thumbnail1 from 'images/thumbnail_drone_kinematics.png';
-import checkBackIcon from 'images/checkbacksoon_icon.png';
+// import checkBackIcon from 'images/checkbacksoon_icon.png';
 
 const sim1 = {
   index: 1,
@@ -37,28 +38,22 @@ const sim3 = {
 
 const sim4 = {
   index: 1,
-  // id: 'gyroscope',
-  // image: thumbnail4,
+  id: 'spinning-top',
+  image: thumbnail4,
   name: 'Spinning Top',
   keywords: 'Euler angles, precession, nutation, intrinsic rotation',
-  description: 'Coming soon.',
+  description:
+    'Visualise the three Euler angles of a rigid body, along with dynamical quantities like angular momentum and torque.',
+  underDevelopment: true,
 };
 
-const sim5 = {
-  index: 1,
-  // id: 'water-jet',
-  // image: thumbnail5,
-  name: 'Water Jet',
-  keywords: 'Logarithmic spiral, gravity, Coriolis force',
-  description: 'Coming soon.',
-};
-
-const checkBackSoon = {
-  index: 0,
-  id: 'coming-soon',
-  image: checkBackIcon,
-  name: 'More simulations are in developement. Please check back soon.',
-};
+// const feedback = {
+//   index: 0,
+//   id: 'coming-soon',
+//   image: checkBackIcon,
+//   name: 'Help us improve',
+//   description: 'asdf',
+// };
 
 export default function Simulations() {
   return (
@@ -67,8 +62,7 @@ export default function Simulations() {
       <SimulationCard {...sim2} />
       <SimulationCard {...sim3} />
       <SimulationCard {...sim4} />
-      <SimulationCard {...sim5} />
-      <SimulationCard {...checkBackSoon} />
+      {/* <SimulationCard {...feedback} /> */}
     </div>
   );
 }

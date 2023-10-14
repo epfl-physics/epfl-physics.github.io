@@ -1,6 +1,6 @@
-/* .sims-page-content {
-  border: 1px solid coral;
-} */
+.sims-page-content {
+  margin-bottom: 8em;
+}
 
 .sims-page-back-button {
   display: flex;
