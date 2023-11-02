@@ -48,6 +48,21 @@ const app3data = {
   github: 'https://github.com/epfl-physics/coupled-oscillations.git',
 };
 
+const app4data = {
+  index: 4,
+  id: 'spinning-top',
+  name: 'spinning-top',
+  loaderUrl: 'SpinningTop/Build/SpinningTop.loader.js',
+  dataUrl: 'SpinningTop/Build/SpinningTop.data',
+  frameworkUrl: 'SpinningTop/Build/SpinningTop.framework.js',
+  codeUrl: 'SpinningTop/Build/SpinningTop.wasm',
+  description:
+    'Visualise the three Euler angles of a rigid body, along with dynamical quantities like angular momentum and torque.',
+  image: image3,
+  github: 'https://github.com/epfl-physics/spinning-top.git',
+  inProgress: true,
+};
+
 export default function Simulations() {
   return (
     <div className='container sims-page-content'>
@@ -60,6 +75,7 @@ export default function Simulations() {
       <UnityApp {...app1data} />
       <UnityApp {...app2data} />
       <UnityApp {...app3data} />
+      <UnityApp {...app4data} />
     </div>
   );
 }

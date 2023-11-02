@@ -37,7 +37,7 @@ const sim3 = {
 };
 
 const sim4 = {
-  index: 1,
+  index: 4,
   id: 'spinning-top',
   image: thumbnail4,
   name: 'Spinning Top',

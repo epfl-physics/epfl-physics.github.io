@@ -3,6 +3,7 @@ import { Unity, useUnityContext } from 'react-unity-webgl';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faCirclePlay } from '@fortawesome/free-regular-svg-icons';
+import AlertBadge from 'components/Alert/AlertBadge';
 import './UnityApp.css';
 
 function UnityApp(props) {
@@ -31,9 +32,16 @@ function UnityApp(props) {
             <FontAwesomeIcon icon={faGithub} color='black' size='lg' />
           </a>
         ) : (
-          <p></p>
+          <></>
         )}
       </div>
+      {props.inProgress ? (
+        <div className='unity-app-alert-badge'>
+          <AlertBadge text='Under development' />
+        </div>
+      ) : (
+        <></>
+      )}
       <div className='unity-player'>
         {isLoading && !isLoaded && (
           <div className='loading-overlay'>

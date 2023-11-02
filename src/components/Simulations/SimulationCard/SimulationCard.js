@@ -15,7 +15,7 @@ export default function SimulationCard(props) {
         >
           {props.image ? <img src={props.image} alt='Sim' /> : <></>}
           {props.underDevelopment ? (
-            <AlertBadge text='In development' />
+            <AlertBadge text='Under development' />
           ) : (
             <></>
           )}
