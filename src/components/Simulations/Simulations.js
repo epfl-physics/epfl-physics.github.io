@@ -44,7 +44,7 @@ const sim4 = {
   keywords: 'Euler angles, precession, nutation, intrinsic rotation',
   description:
     'Visualise the three Euler angles of a rigid body, along with dynamical quantities like angular momentum and torque.',
-  underDevelopment: true,
+  underDevelopment: false,
 };
 
 // const feedback = {
