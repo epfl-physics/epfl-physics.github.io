@@ -51,7 +51,7 @@ const app3data = {
 const app4data = {
   index: 4,
   id: 'spinning-top',
-  name: 'spinning-top',
+  name: 'Spinning Top',
   loaderUrl: 'SpinningTop/Build/SpinningTop.loader.js',
   dataUrl: 'SpinningTop/Build/SpinningTop.data',
   frameworkUrl: 'SpinningTop/Build/SpinningTop.framework.js',
