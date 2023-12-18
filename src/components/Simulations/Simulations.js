@@ -37,14 +37,14 @@ const sim3 = {
 };
 
 const sim4 = {
-  index: 1,
+  index: 4,
   id: 'spinning-top',
   image: thumbnail4,
   name: 'Spinning Top',
   keywords: 'Euler angles, precession, nutation, intrinsic rotation',
   description:
     'Visualise the three Euler angles of a rigid body, along with dynamical quantities like angular momentum and torque.',
-  underDevelopment: true,
+  underDevelopment: false,
 };
 
 // const feedback = {

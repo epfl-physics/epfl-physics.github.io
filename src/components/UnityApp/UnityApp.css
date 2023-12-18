@@ -53,7 +53,12 @@
   display: inline;
   text-transform: capitalize;
   width: max-content;
-  padding-right: 15px;
+  padding-right: 0.5em;
+}
+
+.unity-app-alert-badge {
+  display: flex;
+  margin: -0.5em -0.8em 1em;
 }
 
 @media (max-width: 960px) {

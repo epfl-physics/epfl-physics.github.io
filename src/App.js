@@ -4,6 +4,7 @@ import Header from 'components/Header/Header';
 import Home from './pages/Home';
 import Sims from './pages/Sims';
 import PageNotFound from './pages/PageNotFound';
+import ScrollToAnchor from 'components/Scroll/ScrollToAnchor';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 
 export default function App() {
@@ -11,6 +12,7 @@ export default function App() {
     <div className='app-container'>
       <HashRouter basename='/'>
         {/* <Alert /> */}
+        <ScrollToAnchor />
         <Header />
         <Routes>
           <Route index element={<Home />} />
